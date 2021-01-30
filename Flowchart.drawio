@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T10:44:43.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="rDcfPc0KRgchdzarw7BF" version="14.2.9" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2021-01-30T10:47:33.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="v_CGD4D9kW3aOCa9m_Wy" version="14.2.9" type="github" pages="21">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1556,14 +1556,58 @@
         <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-1" value="void displayPackaging()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
           <mxGeometry x="352" y="60" width="147" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-3" target="Qgi02Mhy6Q9PaIkvVHvH-4">
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-3" value="&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Display (&quot;---------------------------------------&quot;&lt;/div&gt;Display&amp;nbsp;&lt;span&gt;&quot;LIST OF PACKAGING METHOD &quot;&lt;/span&gt;&lt;br&gt;Display&amp;nbsp;&lt;span&gt;&quot;---------------------------------------&quot;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="209.75" y="150" width="431.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-5" target="Qgi02Mhy6Q9PaIkvVHvH-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-3" value="&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Display &quot;---------------------------------------&quot;&lt;/div&gt;&lt;div&gt;Display &quot;TYPES OF LOGISTIC AVAILABLE&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Display &quot;---------------------------------------&quot;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Display&lt;/span&gt;&lt;span&gt;&amp;nbsp;&quot;&lt;/span&gt;1. One ton lorry : Max Load 1000kg : Load Size [Max]-2.5m(L) X 1.5m(W) X 0.8m(H)- Cost : RM500 per unit&quot;&amp;nbsp;&lt;/div&gt;Display&amp;nbsp;&lt;span&gt;&quot;2. 20 ft container : Max Load 10000kg : Load Size [Max]-4.0m(L) X 2.0m(W) X 1.5m(H)- Cost : RM950 per unit&quot;&amp;nbsp;&lt;/span&gt;&lt;br&gt;Display&amp;nbsp;&lt;span&gt;&quot;3. 40 ft container : Max Load 15000kg : Load Size [Max]-6.0m(L) X 2.0m(W) X 1.5m(H)- Cost : RM1400 per unit&quot;&amp;nbsp;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
-          <mxGeometry x="209.75" y="150" width="431.5" height="160" as="geometry" />
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-5" target="Qgi02Mhy6Q9PaIkvVHvH-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-4" value="Return" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
-          <mxGeometry x="365" y="340" width="120" height="30" as="geometry" />
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-5" value="for(int i=0;i&amp;lt;3;i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="330" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-6" target="Qgi02Mhy6Q9PaIkvVHvH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-6" target="Qgi02Mhy6Q9PaIkvVHvH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-6" value="if(i == 0)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="330" y="500" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-8" target="Qgi02Mhy6Q9PaIkvVHvH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-8" target="Qgi02Mhy6Q9PaIkvVHvH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-8" value="else if(i == 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="330" y="660" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ghiuSmL2XVCqistAxcaD-1" source="Qgi02Mhy6Q9PaIkvVHvH-10" target="Qgi02Mhy6Q9PaIkvVHvH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-10" value="else if(i == 2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="330" y="820" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-12" value="&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Display &quot;1.Plastic&lt;/div&gt;&lt;div&gt;&amp;nbsp;Wrapping [1pc for each product]&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="550" y="510" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-14" value="Display&amp;nbsp;&quot;2.Box &lt;br&gt;[250mm (L) X &lt;br&gt;250mm (W) X 250mm (H)]&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="550" y="670" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-16" value="Display &quot;3.Wooden Pallet &lt;br&gt;[500mm (L) X 500mm (W) X 500mm (H)]\n&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="530" y="830" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qgi02Mhy6Q9PaIkvVHvH-18" value="&lt;div&gt;&lt;span&gt;	&lt;/span&gt;printf(&quot;---------------------------------------\n&quot;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="ghiuSmL2XVCqistAxcaD-1">
+          <mxGeometry x="95" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
