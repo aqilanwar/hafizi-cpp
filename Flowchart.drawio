@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T09:00:05.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ZZdldn3phI_CTh5E8kCS" version="14.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-30T09:02:23.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="TWIl0pBeIGVr4vWxcOZ3" version="14.2.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -267,8 +267,14 @@
         <mxCell id="EM8PbBsF41QC5ksOpRH0-21" value="&lt;div&gt;cusVolume = totalheight * thick * width;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;calVolume = (quan *cusVolume) / rawVolume ;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;result = ceil(calVolume);&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;totalPrice = rawprice * result ;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;time1 = (2* quan);&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;time2 = (5* quan) ;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;time3 = (0.25* quan) ;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;time4 = (30*quan) ;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EPvzpTljK1JfhlnWJi1p-1">
           <mxGeometry x="298.31" y="630" width="257.87" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="nuqrBBE7CgEp2BK4EG35-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EPvzpTljK1JfhlnWJi1p-1" source="EM8PbBsF41QC5ksOpRH0-23" target="nuqrBBE7CgEp2BK4EG35-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EM8PbBsF41QC5ksOpRH0-23" value="displayResult(result,quan,totalPrice,materialtype,&lt;br&gt;time1,time2,time3,time4);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="EPvzpTljK1JfhlnWJi1p-1">
           <mxGeometry x="260.19" y="790" width="334.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nuqrBBE7CgEp2BK4EG35-0" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="EPvzpTljK1JfhlnWJi1p-1">
+          <mxGeometry x="367.26" y="890" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -382,6 +388,21 @@
       <root>
         <mxCell id="YIJwXvY3vHqg6mbx6dIR-0" />
         <mxCell id="YIJwXvY3vHqg6mbx6dIR-1" parent="YIJwXvY3vHqg6mbx6dIR-0" />
+        <mxCell id="IfO3pWIvWpSRNzeuugkz-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIJwXvY3vHqg6mbx6dIR-1" source="IfO3pWIvWpSRNzeuugkz-0" target="IfO3pWIvWpSRNzeuugkz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IfO3pWIvWpSRNzeuugkz-0" value="void displayMenu()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="YIJwXvY3vHqg6mbx6dIR-1">
+          <mxGeometry x="359" y="40" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfO3pWIvWpSRNzeuugkz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YIJwXvY3vHqg6mbx6dIR-1" source="IfO3pWIvWpSRNzeuugkz-1" target="IfO3pWIvWpSRNzeuugkz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IfO3pWIvWpSRNzeuugkz-1" value="Display&quot;---------------------------------------&quot;&lt;br&gt;&amp;nbsp;Display&quot; PRODUCTION PLANNING &quot;&lt;br&gt;&amp;nbsp;Display &quot;---------------------------------------&quot;&lt;br&gt;Display &quot;[Available Type of raw material]&quot;&lt;br&gt;Display &quot;Alloy plate : 1m X 0.5m X 0.01m (5kg)&quot;&lt;br&gt;Display &quot;Aluminium plate : 1m X 0.5m X 0.01m (3kg)&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="YIJwXvY3vHqg6mbx6dIR-1">
+          <mxGeometry x="120" y="150" width="610" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IfO3pWIvWpSRNzeuugkz-3" value="Return" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="YIJwXvY3vHqg6mbx6dIR-1">
+          <mxGeometry x="365" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
