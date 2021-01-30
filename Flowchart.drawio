@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T09:30:07.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="QTIM96mZf3Qo-nayVUWO" version="14.2.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-30T09:30:35.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="JhQ4rui0gB0vbklZOnK3" version="14.2.9" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -712,8 +712,14 @@
       <root>
         <mxCell id="tAaU3eLpSBTeL50yJ79B-0" />
         <mxCell id="tAaU3eLpSBTeL50yJ79B-1" parent="tAaU3eLpSBTeL50yJ79B-0" />
+        <mxCell id="rdo5WaqOUCoSO68_rpfJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tAaU3eLpSBTeL50yJ79B-1" source="OubJ-xC5mFhfjGegDQw9-0" target="rdo5WaqOUCoSO68_rpfJ-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OubJ-xC5mFhfjGegDQw9-0" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="tAaU3eLpSBTeL50yJ79B-1">
           <mxGeometry x="405" y="-1040" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rdo5WaqOUCoSO68_rpfJ-0" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Display &quot;Enter thickness&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;of material (maximum thickness&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;is 0.025m) : &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Read thick&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="tAaU3eLpSBTeL50yJ79B-1">
+          <mxGeometry x="322" y="-970" width="206" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
