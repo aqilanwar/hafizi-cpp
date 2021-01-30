@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T10:37:00.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="CAgqoue7762BmKbtVAZe" version="14.2.9" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-01-30T10:39:48.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="qK4STByRn9vqQKIPdpXC" version="14.2.9" type="github" pages="19">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1385,6 +1385,9 @@
         <mxCell id="Yf3Cww4J-FlhmlikJJy0-8" value="displayDelivery()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="uTqWdg_VB8K3hh6tMDWo-1">
           <mxGeometry x="374" y="900" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AfV-NAr8Kd5YH0saAPWj-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uTqWdg_VB8K3hh6tMDWo-1" source="Yf3Cww4J-FlhmlikJJy0-10" target="Yf3Cww4J-FlhmlikJJy0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Yf3Cww4J-FlhmlikJJy0-10" value="&lt;div&gt;Display &quot;Please enter the method of logistic [1/2/3] :&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Read logistic&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="uTqWdg_VB8K3hh6tMDWo-1">
           <mxGeometry x="279" y="950" width="310" height="45" as="geometry" />
         </mxCell>
@@ -1405,6 +1408,62 @@
         </mxCell>
         <mxCell id="Yf3Cww4J-FlhmlikJJy0-22" value="FALSE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uTqWdg_VB8K3hh6tMDWo-1">
           <mxGeometry x="537" y="660" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf3Cww4J-FlhmlikJJy0-27" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="uTqWdg_VB8K3hh6tMDWo-1">
+          <mxGeometry x="414" y="1020" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kFV_D3uSI-ziU_VbAZpG" name="Page-19">
+    <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-0" />
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-1" parent="eJ_aVXlmEluUDjShgJnh-0" />
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-2" target="eJ_aVXlmEluUDjShgJnh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-2" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="405" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-3" target="eJ_aVXlmEluUDjShgJnh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-3" target="eJ_aVXlmEluUDjShgJnh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-3" value="if(logistic == 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="358" y="130" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-5" target="eJ_aVXlmEluUDjShgJnh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-5" value="&lt;div&gt;logvol = result/lorryvol ;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;holdresult = ceil(logvol);&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="540" y="140" width="204.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-7" value="&lt;div&gt;Display &quot;The lorry that&lt;/div&gt;&lt;div&gt;&amp;nbsp;needed to deliver the product : %d unit&quot; ,holdresult&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="520" y="230" width="247.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-9" target="eJ_aVXlmEluUDjShgJnh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-9" target="eJ_aVXlmEluUDjShgJnh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-9" value="else if(logistic == 2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="358" y="290" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-11" target="eJ_aVXlmEluUDjShgJnh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-11" value="logvol = result/container20ft&amp;nbsp; &amp;nbsp; &amp;nbsp;holdresult = ceil(logvol)" style="whiteSpace=wrap;html=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="547.5" y="300" width="189.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-13" value="Display &quot;The 20ft container that&lt;br&gt;&amp;nbsp;needed to deliver the &lt;br&gt;product : %d unit&quot; , holdresult" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="533.38" y="390" width="217.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-15" value="else if(logistic == 3)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="358" y="450" width="135" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
