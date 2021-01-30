@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T10:39:48.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="qK4STByRn9vqQKIPdpXC" version="14.2.9" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-01-30T10:40:30.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="LuritadClbbzetkdXVEl" version="14.2.9" type="github" pages="19">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1462,8 +1462,20 @@
         <mxCell id="eJ_aVXlmEluUDjShgJnh-13" value="Display &quot;The 20ft container that&lt;br&gt;&amp;nbsp;needed to deliver the &lt;br&gt;product : %d unit&quot; , holdresult" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
           <mxGeometry x="533.38" y="390" width="217.75" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-15" target="eJ_aVXlmEluUDjShgJnh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eJ_aVXlmEluUDjShgJnh-15" value="else if(logistic == 3)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
           <mxGeometry x="358" y="450" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="eJ_aVXlmEluUDjShgJnh-1" source="eJ_aVXlmEluUDjShgJnh-17" target="eJ_aVXlmEluUDjShgJnh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-17" value="logvol = result/container40ft&amp;nbsp; &amp;nbsp; &amp;nbsp;holdresult = ceil(logvol)" style="whiteSpace=wrap;html=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="559.13" y="460" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eJ_aVXlmEluUDjShgJnh-19" value="Display &quot;The 40ft container that needed to deliver the product : %d unit&quot; , holdresult" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eJ_aVXlmEluUDjShgJnh-1">
+          <mxGeometry x="583.88" y="600" width="216.12" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
